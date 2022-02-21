@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Форма обратной связи</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+	<form name="form" action="mail.php" method="post" id="form_message">
+		<h2>Форма обратной связи.</h2>
+
+		<p>
+		<div class="titles">Комментарий</div><textarea name="coment" cols="18" rows="3" /></textarea></p>
+		<p>
+		<div class="titles">ФИО*</div> <input class="input" name="fio" type="text" /> </p>
+
+		<p>
+		<div class="titles">Адрес</div> <input class="input" name="name" type="text" /> </p>
+
+		<p>
+		<div class="titles">email*</div> <input class="input" name="email" type="text" /> </p>
+
+		<p>
+		<div class="titles">Моб.телефон</div> <input class="input" name="phone" type="text" /> </p>
+
+		<p>
+			<input class="inputfile" name="subjects" type="file" />
+		</p>
+
+
+		<p><input id="submit" value="Отправить" type="submit" /></p>
+	</form>
+</body>
+
+</html>
